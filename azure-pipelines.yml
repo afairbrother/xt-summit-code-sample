@@ -26,4 +26,4 @@ steps:
 
 - script: 
     npm run test
-    displayName: 'Run the tests'
+  displayName: 'Run the tests'
