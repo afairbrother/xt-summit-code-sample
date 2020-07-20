@@ -14,6 +14,6 @@ describe('header', () => {
 
     test('it has an h1 tag', () => {
         const wrapper = shallow(<Header />);
-        expect(wrapper.find('h1').length).toBe(0);
+        expect(wrapper.find('h1').length).toBe(1);
     });
 });
